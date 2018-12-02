@@ -1,10 +1,10 @@
-# React Composing Components
+# React component design principles, component interfgace, reusable components
 
 ![React.js](./images/reactjs.png)
 
 ## About project:
 
-How to use props to pass data to your component, Raise and Handling Events, Lifting the State and with this texhnique, we could have multiple components that shared the same data, and were in sync. Functional components and life cycle hooks. Add pagination, sorting and searching.
+Component design principles, interface of a component, in terms of the data it should recieve and the events it should raise. I builded a few reusable components, like list group, pagination, and table. I created pagination, filtering and sorting logic
 I used this lodash methods: _.get(), _.slice(), _.take(), _.range(), \_.orderBy()
 
 ### Content:
