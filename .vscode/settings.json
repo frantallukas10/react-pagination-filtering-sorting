@@ -1,0 +1,78 @@
+{
+	// Core settings
+	"editor.rulers": [80, 160],
+	"editor.tabSize": 2,
+	"files.autoSave": "off",
+	"files.eol": "\n",
+	"javascript.format.enable": false,
+	"javascript.validate.enable": false,
+	"search.exclude": {
+		"**/bin": true,
+		"**/coverage": true,
+		"**/dist": true,
+		"**/node_modules": true,
+		"**/template": true,
+		"**/__snapshots__/": true
+	},
+	// Packages settings
+	"git.enableSmartCommit": true,
+	"eslint.autoFixOnSave": true,
+	"eslint.enable": true,
+	"flow.useNPMPackagedFlow": true,
+	"outline.icons": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"prettier.eslintIntegration": true,
+	"editor.wordWrapColumn": 180,
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true,
+		"suppressWelcomeNotice": true
+	},
+	"window.zoomLevel": 0,
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"full": {
+				"custom": {
+					"textDecoration": "underline"
+				}
+			},
+			"left": {
+				"custom": {
+					"borderWidth": "0",
+					"borderStyle": "solid",
+					"borderColor": "transparent",
+					"borderRadius": "0"
+				}
+			},
+			"right": {
+				"custom": {
+					"borderWidth": "0",
+					"borderStyle": "solid",
+					"borderColor": "transparent",
+					"borderRadius": "0"
+				}
+			}
+		}
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"explorer.confirmDragAndDrop": false,
+	"shellLauncher.shells.windows": [
+		{
+			"shell": "C:\\Windows\\System32\\cmd.exe",
+			"label": "cmd"
+		},
+		{
+			"shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+			"label": "PowerShell"
+		},
+		{
+			"shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"label": "Git bash"
+		}
+	],
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"editor.matchBrackets": false,
+	"editor.formatOnSave": true,
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single"
+}
