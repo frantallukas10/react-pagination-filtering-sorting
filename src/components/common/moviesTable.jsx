@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Like from './like';
 import Table from './table';
+import PropTypes from 'prop-types';
 
 class MoviesTable extends Component {
   columns = [
@@ -38,5 +39,14 @@ class MoviesTable extends Component {
     );
   }
 }
+
+MoviesTable.propTypes = {
+  sortColumn: PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    order: PropTypes.string.isRequired
+  }),
+  onSort: PropTypes.func.isRequired,
+  movies: PropTypes.array.isRequired
+};
 
 export default MoviesTable;

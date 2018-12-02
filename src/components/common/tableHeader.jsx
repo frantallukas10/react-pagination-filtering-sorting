@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class TableHeader extends Component {
   raiseSort = path => {
@@ -38,5 +39,14 @@ class TableHeader extends Component {
     );
   }
 }
+
+TableHeader.propTypes = {
+  column: PropTypes.array,
+  sortColumn: PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    order: PropTypes.string.isRequired
+  }).isRequired,
+  onSort: PropTypes.func.isRequired
+};
 
 export default TableHeader;
