@@ -30,7 +30,7 @@ services/:
 
 utils/:
 
-- [utils/paginate.jsx]('./src/utils/paginate.jsx')
+- [utils/paginate.jsx](./src/utils/paginate.jsx)
 
 ## Project screenshot:
 
