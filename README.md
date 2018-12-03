@@ -11,26 +11,26 @@ I used this lodash methods: _.get(), _.slice(), _.take(), _.range(), \_.orderBy(
 
 components/:
 
-- [components/movie.jsx](./src/components/movies.jsx)
+- [./src/components/movie.jsx](./src/components/movies.jsx)
 
 components/common/:
 
-- [components/common/like.jsx](./src/components/common/like.jsx)
-- [components/common/listGroup.jsx](./src/components/common/listGroup.jsx)
-- [components/common/movieTable.jsx](./src/components/common/movieTable.jsx)
-- [components/common/pagination.jsx](./src/components/common/pagination.jsx)
-- [components/common/table.jsx](./src/components/common/table.jsx)
-- [components/common/tableBody.jsx](./src/components/common/tableBody.jsx)
-- [components/common/tableHeader.jsx](./src/components/common/tableHeader.jsx)
+- [./src/components/common/like.jsx](./src/components/common/like.jsx)
+- [./src/components/common/listGroup.jsx](./src/components/common/listGroup.jsx)
+- [./src/components/common/movieTable.jsx](./src/components/common/movieTable.jsx)
+- [./src/components/common/pagination.jsx](./src/components/common/pagination.jsx)
+- [./src/components/common/table.jsx](./src/components/common/table.jsx)
+- [./src/components/common/tableBody.jsx](./src/components/common/tableBody.jsx)
+- [./src/components/common/tableHeader.jsx](./src/components/common/tableHeader.jsx)
 
 services/:
 
-- [services/fakeGenreService.jsx](./src/services/fakeGenreService.jsx)
-- [services/fakeMovieService.jsx](./src/services/fakeMovieService.jsx)
+- [./src/services/fakeGenreService.js](./src/services/fakeGenreService.js)
+- [./src/services/fakeMovieService.js](./src/services/fakeMovieService.js)
 
 utils/:
 
-- [utils/paginate.jsx](./src/utils/paginate.jsx)
+- [./src/utils/paginate.js](./src/utils/paginate.js)
 
 ## Project screenshot:
 
