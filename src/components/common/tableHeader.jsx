@@ -41,7 +41,12 @@ class TableHeader extends Component {
 }
 
 TableHeader.propTypes = {
-  column: PropTypes.array,
+  column: PropTypes.arrayOf(
+    PropTypes.objectOf({
+      path: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired
+    })
+  ),
   sortColumn: PropTypes.shape({
     path: PropTypes.string.isRequired,
     order: PropTypes.string.isRequired
