@@ -11,7 +11,7 @@ I used this lodash methods: _.get(), _.slice(), _.take(), _.range(), \_.orderBy(
 
 components/:
 
-- [components/movie.jsx](./src/components/movie.jsx)
+- [components/movie.jsx](./src/components/movies.jsx)
 
 components/common/:
 
