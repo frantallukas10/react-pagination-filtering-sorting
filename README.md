@@ -1,4 +1,4 @@
-# React component design principles, component interfgace, reusable components
+# React component design principles, component interface, reusable components
 
 ![React.js](./images/reactjs.png)
 
